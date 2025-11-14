@@ -3,14 +3,144 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Rubik" , sans-serif;
+	font-size: 20px;
+	font-weight: 300;
 
 }
 
 header {
-	padding: 40px;
+	padding: 20px 50px;
+	margin: 10px;
+	border-radius: 8px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	/*background-color: greenyellow;*/
+	background-color: greenyellow;
+}
+
+body {
+	background-color: black;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	display: flex;
+	gap: 20px;
+}
+
+span {
+	display: flex;
+	gap: 4px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.cta_button{
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 100px;
+	width: fit-content;
+}
+
+.wide_section{
+	background-color: dimgrey;
+	padding: 50px;
+	margin: 10px;
+	border-radius: 8px;
+	min-height: calc(100vh - 200px);
+	display: flex;
+	flex-direction: row;
+	align-content: start;
+	justify-content: space-between;
+}
+
+h1 {
+	color: whitesmoke;
+	font-size: 100px;
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+p {
+	color: whitesmoke;
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+
+.skill_section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow: hidden;
+
+}
+
+.skill_containter {
+	background-color: dimgrey;
+	padding: 50px;
+	margin: 10px;
+	border-radius: 8px;
+	display: flex;
+	/*flex-wrap: wrap;*/
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+	min-height: 350px;
+
+}
+
+.secondary_text {
+	color: whitesmoke;
+	font-size: 50px;
+	margin-bottom: 10px	;
+}
+
+.tag_container {
+	display: flex;
+	gap: 8px;
+}
+
+.skill_tag {
+	color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 100px;
+	border: 1px solid whitesmoke;
+	font-size: 16px;
+	width: fit-content;
+}
+
+.project_containter {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: auto;
+	overflow: hidden;
+}
+
+.project_img {
+}
+
+img {
+	border-radius: 10px;
+	width: 800px;
+	height: 600px;
+	object-fit: cover;
+
+}
+
+.fill_cta_button{
+	background-color: greenyellow;
+	color: black;
+	border-radius: 100px;
+	padding: 10px 20px;
+	width: fit-content;
 }
