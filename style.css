@@ -48,10 +48,11 @@ span {
 	border: 1px solid black;
 	border-radius: 100px;
 	width: fit-content;
+	cursor: pointer;
 }
 
 .wide_section{
-	background-color: dimgrey;
+	background-color: #1E2118;
 	padding: 50px;
 	margin: 10px;
 	border-radius: 8px;
@@ -60,6 +61,31 @@ span {
 	flex-direction: row;
 	align-content: start;
 	justify-content: space-between;
+	gap: 50px;
+	height: auto;
+	/*flex-wrap: wrap;*/
+}
+
+.hero_wide_section{
+	background-color: #1E2118;
+	padding: 50px;
+	margin: 10px;
+	border-radius: 8px;
+	min-height: calc(100vh - 200px);
+	display: flex;
+	flex-direction: column;
+	align-content: start;
+	justify-content: space-between;
+	gap: 50px;
+
+}
+
+.wide_section_ui{
+	background-color: #1A3826 ;
+}
+
+.wide_section_software {
+	background-color: #102537 ;
 }
 
 h1 {
@@ -71,8 +97,9 @@ h1 {
 
 p {
 	color: whitesmoke;
-	width: 500px;
-	margin-bottom: 10px;
+	width: 550px;
+	margin-bottom: 20px;
+	opacity: 60%;
 }
 
 
@@ -85,7 +112,7 @@ p {
 }
 
 .skill_containter {
-	background-color: dimgrey;
+	background-color: #1E2118;
 	padding: 50px;
 	margin: 10px;
 	border-radius: 8px;
@@ -122,9 +149,19 @@ p {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	width: auto;
+	flex-wrap: wrap;
+	width: 100%;
 	overflow: hidden;
 }
+
+.footer_containter {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	overflow: hidden;
+}
+
 
 .project_img {
 }
@@ -143,4 +180,56 @@ img {
 	border-radius: 100px;
 	padding: 10px 20px;
 	width: fit-content;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.form_container{
+	display: flex;
+	/*flex-wrap: wrap;*/
+	flex-direction: row;
+	width: 100%;
+	gap: 50px;
+	height: 100%;
+}
+
+input {
+	width: 100%;
+	padding: 20px;
+	border-radius: 8px;
+	border: none;
+	margin-bottom: 16px;
+	background-color: #353A2B;
+	color: whitesmoke;
+	outline: none;
+	box-shadow: none !important;
+}
+
+
+input::placeholder {
+	color: whitesmoke;
+	opacity: 30%;
+}
+
+input::focus{
+	border: none;
+}
+
+textarea {
+	width: 100%;
+	padding: 20px;
+	border-radius: 8px;
+	border: none;
+	margin-bottom: 16px;
+	background-color: #353A2B;
+	color: whitesmoke;
+	outline: none;
+	box-shadow: none !important;
+	height: 100%;
+
+}
+
+.column {
+	flex-direction: column;
 }
