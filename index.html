@@ -16,21 +16,39 @@
     />
 
     <link rel="icon" type="image/x-icon" href="images/aabidpro.png">
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
 
 	<title>Aabid - Portfolio websites </title>
 </head>
 <body>
 	<header>
-		<span class="logo">Aabid Hasan</span>
-		<nav>
-			<span><a href="https://www.behance.net/aabidpro" target="blank" >Behance</a><i class="ph ph-link-simple"></i></span>
-			<span><a href="https://www.linkedin.com/in/aabidhasan495/" target="blank">Linkedin</a><i class="ph ph-link-simple"></i></span>
-			<span><a href="https://wa.me/9779816071322" target="blank">Whatsapp</a><i class="ph ph-link-simple"></i></span>
-		</nav>
-		<span class="cta_button">Let's talk</span>
+  <div class="logo">Aabid Hasan</div>
 
-	</header>
+
+  <nav class="nav-links">
+    <a href="https://www.behance.net/aabidpro" target="_blank">
+      Behance <i class="ph ph-link-simple"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/aabidhasan495/" target="_blank">
+      Linkedin <i class="ph ph-link-simple"></i>
+    </a>
+    <a href="https://wa.me/9779816071322" target="_blank">
+      Whatsapp <i class="ph ph-link-simple"></i>
+    </a>
+  </nav>
+
+
+  <a href="https://wa.me/9779816071322" class="cta_button desktop-cta">Let's talk</a>
+
+
+  <div class="hamburger">
+    <i class="ph ph-list"></i>
+  </div>
+
+
+  <a href="https://wa.me/9779816071322" class="cta_button mobile-cta">Let's talk</a>
+</header>
 
 	<section class="hero_wide_section">
 		<div>
@@ -98,28 +116,29 @@
 	</section>
 
 	<section class="wide_section column">
-		<div class="form_container">
-			<div>
-				<h2 class="secondary_text">Got brief? let's work!</h2>
-						<p>You can directly give me a Call or WhatsApp @ +977-9816071322</p>
-						<form >
-							<input type="text" name="name" placeholder="Full Name">
-							<input type="text" name="email" placeholder="example@gmail.com">
-							<input type="text" name="mobile" placeholder="Mobile Number Please">
-							<textarea name="message" placeholder="write your message"></textarea>
-							<button class="fill_cta_button">Send Message</button>
-						</form>	
-			</div>
-			
-					<img src="images/aabidpro.png">
-		</div>
-	
+    <div class="form_container">
+      <div>
+        <h2 class="secondary_text">Got a brief? Let's work!</h2>
+        <p>You can directly give me a Call or WhatsApp @ +977-9816071322</p>
 
-		<footer>
-			<p>&copy; 2025 All right reserved. </p>
-		</footer>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="example@gmail.com" required>
+          <input type="tel" name="mobile" placeholder="Mobile Number Please">
+          <textarea name="message" placeholder="Write your message" required></textarea>
+          <button type="submit" class="fill_cta_button">Send Message</button>
+        </form>
+      </div>
+      <img src="images/aabidpro.png" alt="Aabid">
+    </div>
 
-	</section>
+    <footer>
+      <p>© 2025 All rights reserved.</p>
+    </footer>
+  </section>
+
+
+	<script src="script.js"></script>
 
 </body>
 </html>
