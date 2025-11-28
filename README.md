@@ -2,15 +2,13 @@
 
 Personal portfolio showcasing UI/UX design, graphic design, and full-stack development work.
 
-Live Demo → [[https://aabidhasan.me](https://aabidhasan.me](https://aabidproo.github.io/portfolio-2ndyear/))  
-(Replace with your actual live link: Netlify, Vercel, GitHub Pages, etc.)
+Live Demo → (https://aabidhasan.me](https://aabidproo.github.io/portfolio-2ndyear/)) 
+
 
 ## Preview
 
 ### Desktop View
-![Desktop Preview](screenshot-desktop.png)
-<!-- or use direct image URL -->
-<!-- ![Desktop Preview](https://raw.githubusercontent.com/yourusername/your-repo/main/screenshot-desktop.png) -->
+(screenshot-desktop.png)
 
 ### Mobile View
 <div align="center">
@@ -35,8 +33,6 @@ Live Demo → [[https://aabidhasan.me](https://aabidhasan.me](https://aabidproo.
 - Smooth hamburger menu on mobile
 - Clean, modern UI with Phosphor icons
 
-## Live Link
-[Visit Website](https://aabidhasan.me)
 
 ---
 
