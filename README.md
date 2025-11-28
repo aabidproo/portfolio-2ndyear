@@ -2,7 +2,7 @@
 
 Personal portfolio showcasing UI/UX design, graphic design, and full-stack development work.
 
-Live Demo → (https://aabidhasan.me](https://aabidproo.github.io/portfolio-2ndyear/)) 
+Live Demo → (https://aabidproo.github.io/portfolio-2ndyear/)
 
 
 ## Preview
